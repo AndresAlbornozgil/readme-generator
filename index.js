@@ -16,6 +16,11 @@ const questions = [
         name: 'description',
         message: "What is your project about?"
     },
+    {
+        type: 'input',
+        name: 'content',
+        message: ""
+    },
     { 
         type: 'input',
         name: 'installation',
@@ -52,7 +57,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 console.info('data:', data);
-return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+return fs.writeFileSync(path.join(process.cwd(),fileName), data);
 }
 
 // TODO: Create a function to initialize app
