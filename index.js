@@ -17,19 +17,22 @@ const questions = [
         message: "What is your project about?"
     },
     {
-        type: 'input',
+        type: 'checkbox',
         name: 'content',
-        message: ""
+        message: "What sections does your README contain?",
+        choices: [
+            'title', 'description', 'content', 'installation', 'usage', 'license', 'contributing', 'tests', 'questions'
+        ]
     },
     { 
         type: 'input',
         name: 'installation',
-        message: "How do you install it?"
+        message: "What's the installation process for your project?"
     },
     {
         type: 'input',
         name: 'usage',
-        message: "How is this project used?"
+        message: "How is this project used? Please privide detailed instructions"
     },
     {
         type: 'list',
@@ -45,7 +48,7 @@ const questions = [
     {
         type: 'input',
         name: 'tests',
-        message: "How is testing done in this project?"
+        message: "How is testing done for this project?"
     },
     {
         type: 'input',
