@@ -21,7 +21,14 @@ const questions = [
         name: 'content',
         message: "What sections does your README contain?",
         choices: [
-            'title', 'description', 'content', 'installation', 'usage', 'license', 'contributing', 'tests', 'questions'
+            'title', 
+            'description' ,
+            'installation' ,
+            'usage' ,
+            'license' ,
+            'contributing' ,
+            'tests' ,
+            'questions '
         ]
     },
     { 
