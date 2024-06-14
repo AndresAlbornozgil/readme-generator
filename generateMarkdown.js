@@ -70,9 +70,4 @@ return `# ${data.title}
     `
 }
 
-module.exports = { 
-  generateMarkdown,
-  renderLicenseBadge,
-  renderLicenseLink,
-  renderLicenseSection,
-};
+module.exports = generateMarkdown;
