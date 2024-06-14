@@ -16,21 +16,6 @@ const questions = [
         name: 'description',
         message: "What is your project about?"
     },
-    {
-        type: 'checkbox',
-        name: 'content',
-        message: "What sections does your README contain?",
-        choices: [
-            'title', 
-            'description' ,
-            'installation' ,
-            'usage' ,
-            'license' ,
-            'contributing' ,
-            'tests' ,
-            'questions '
-        ]
-    },
     { 
         type: 'input',
         name: 'installation',
@@ -59,8 +44,13 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: "Where can people reach out to you for questions?"
+        name: 'email',
+        message: "What is a good email, so that people reach out to you for questions?"
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: "What is the link to your github profile, so that people reach out to you for questions?"
     },
   ];
 
