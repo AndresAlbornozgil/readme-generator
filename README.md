@@ -15,7 +15,7 @@
   ## License
   #### This project is unlicensed.
   ## Contributing
-  #### Currently there is no need for contributions
+  #### Currently there is no need for contributions.
   ## Tests
   #### Tested at the time of deployment.
   ## Questions
